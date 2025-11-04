@@ -9,7 +9,7 @@ import {
 } from "../controllers/VendorController.js";
 import { uploadImagesForVendor } from "../controllers/ImageUploadController.js";
 import upload from "../middleware/uploadImage.js";
-import VerifyToken from "../middleware/VerifyToken.js";
+import VerifyToken from "../middleware/verifyToken.js";
 const router = express.Router();
 console.log("VerifyToken:", typeof VerifyToken);
 
